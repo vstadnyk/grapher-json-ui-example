@@ -3,7 +3,7 @@ const CompressionPlugin = require('compression-webpack-plugin')
 module.exports = {
 	lintOnSave: false,
 	productionSourceMap: false,
-	outputDir: 'dist',
+	outputDir: 'docs',
 	configureWebpack: {
 		plugins: [
 			new CompressionPlugin({
