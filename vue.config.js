@@ -3,6 +3,7 @@ const CompressionPlugin = require('compression-webpack-plugin')
 module.exports = {
 	lintOnSave: false,
 	productionSourceMap: false,
+	publicPath: '/grapher-json-ui-example',
 	outputDir: 'docs',
 	configureWebpack: {
 		plugins: [
